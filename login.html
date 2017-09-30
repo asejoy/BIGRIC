@@ -3,28 +3,35 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>login</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
 	</head>
+	
 	<body>
-		<div>
+		<div id="box">
 			<div id="login_content">
-				<div>
-					<div id=>
-						<img src="" alt="" />
+				<div id="login_content_firstpart">
+					<div id="login_content_img">
+						<img src="img/login_img/login_logo.jpg" alt="" />
 					</div>
-					<p>小米账号登录</p>
+					<p>大米账号登录</p>
 					
 					
 				</div>
-				<div>
+				<div id="login_content_secondpart">
 					<form action="">
 					
-						<input type="text" />
-						<input type="text" />
-						<input type="text" />
+						<input type="text" id="login_content_secondpart_name" value="邮箱/手机号码/小米ID"/>
+						<input type="text" id="login_content_secondpart_password" value="密码"/>
+						<input type="submit" id="login_content_secondpart_submit" value="登录"/>
 					</form>
 					
 				</div>
-				<p>立即注册 忘记密码</p>
+				<div id="login_content_secondpart_third">
+					<p>立即注册</p> 
+					<img src="img/login_img/login_part_three_shugang.jpg" alt="" />
+					<p>忘记密码 ?</p>
+				</div>
 				<p>其他方式登录</p>
 				<div>
 					<img src="" alt="" />
