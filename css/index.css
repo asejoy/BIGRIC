@@ -72,7 +72,7 @@
 		justify-content:space-between;
 		/*margin-left:10px;*/
 		
-		width: 460px;
+		/*width: 460px;*/
 		/*background: red;*/
 		
 	}
@@ -85,6 +85,12 @@
 		/*background: red;*/
 		text-align: center;
 	}	
+	
+#nav_left li a
+	{
+		color: #666666;
+	}	
+	
 #nav_right
 	{
 		display: flex;
@@ -98,6 +104,10 @@
 	{
 		width:30px;
 		/*background: blue;*/
+	}
+#nav_right li a
+	{
+		color: #666666;
 	}
 	
 #search
@@ -833,6 +843,7 @@
 		display: block;
 		font-size: 12px;
 		margin-left: 20px;
+		color:#666666;
 	}
 .arrange_img_div_1 h1
 	{
@@ -860,7 +871,7 @@
 	
 	
 	
-#footer
+/*#footer
 	{
 		text-align: center;
 		color: #9a9a9a;
@@ -870,4 +881,4 @@
 	{
 		height: 112px;
 		background: #393939;
-	}
+	}*/

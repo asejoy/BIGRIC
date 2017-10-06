@@ -31,12 +31,15 @@ $("#nav_left li").mouseleave(function(){
 })
 
 
+
+
+
 $(function(){ 	
 	
- 	$("#slideshow_box1").Slider({
+   	$("#slideshow_box1").Slider({
 
- 			"width":200
- 	});
+   			"width":200
+   	});
 
 
  

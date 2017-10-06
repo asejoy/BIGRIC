@@ -1,81 +1,103 @@
 body {
   background: #f5f5f5;
-  margin-top: 23px;
-}
+  margin-top: 23px; }
 
 #box {
   width: 856px;
   height: 626px;
   margin: 0 auto;
-  background: white;
-}
+  background: white; }
 
 #login_content {
   margin: 0 auto;
-  width: 358px;
-}
-#login_content #login_content_firstpart {
-  overflow: hidden;
-}
-#login_content #login_content_firstpart #login_content_img {
-  margin-top: 51px;
-  margin-bottom: 26px;
-}
-#login_content #login_content_firstpart #login_content_img img {
-  width: 49px;
-  height: 49px;
-  margin: 0 auto;
-}
-#login_content #login_content_firstpart p {
-  width: 184px;
-  height: 35px;
-  font-size: 30px;
-  line-height: 35px;
-  color: #424242;
-  margin: 0 auto;
-  margin-bottom: 42px;
-}
-#login_content #login_content_secondpart form input {
-  display: block;
-  width: 358px;
-  height: 50px;
-  border: 1px solid #e0e0e0;
-}
-#login_content #login_content_secondpart form #login_content_secondpart_name {
-  margin-bottom: 15px;
-  color: #969696;
-  padding-left: 15px;
-  width: 343px;
-}
-#login_content #login_content_secondpart form #login_content_secondpart_password {
-  margin-bottom: 25px;
-  color: #969696;
-  padding-left: 15px;
-  width: 343px;
-}
-#login_content #login_content_secondpart form #login_content_secondpart_submit {
-  background: #ef5b00;
+  width: 358px; }
+  #login_content #login_content_firstpart {
+    overflow: hidden; }
+    #login_content #login_content_firstpart #login_content_img {
+      margin-top: 51px;
+      margin-bottom: 26px; }
+      #login_content #login_content_firstpart #login_content_img img {
+        width: 49px;
+        height: 49px;
+        margin: 0 auto; }
+    #login_content #login_content_firstpart p {
+      width: 184px;
+      height: 35px;
+      font-size: 30px;
+      line-height: 35px;
+      color: #424242;
+      margin: 0 auto;
+      margin-bottom: 42px; }
+  #login_content #login_content_secondpart form input {
+    display: block;
+    width: 358px;
+    height: 50px;
+    border: 1px solid #e0e0e0; }
+  #login_content #login_content_secondpart form #login_content_secondpart_name {
+    margin-bottom: 15px;
+    color: #969696;
+    padding-left: 15px;
+    width: 343px; }
+  #login_content #login_content_secondpart form #login_content_secondpart_password {
+    margin-bottom: 25px;
+    color: #969696;
+    padding-left: 15px;
+    width: 343px; }
+  #login_content #login_content_secondpart form #login_content_secondpart_submit {
+    background: #ef5b00;
+    text-align: center;
+    color: white;
+    font-size: 14px; }
+  #login_content #login_content_secondpart_third {
+    display: flex;
+    justify-content: flex-end;
+    width: 358px;
+    height: 37px; }
+    #login_content #login_content_secondpart_third img {
+      width: 2px;
+      height: 17px;
+      background: red;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-top: 4px; }
+    #login_content #login_content_secondpart_third p {
+      color: #757575;
+      font-size: 14px; }
+  #login_content #login_content_thirdpart_qitadenglu {
+    display: flex;
+    justify-content: space-between; }
+    #login_content #login_content_thirdpart_qitadenglu p {
+      font-size: 14px;
+      color: #b0b0b0;
+      width: 85px;
+      height: 18px; }
+    #login_content #login_content_thirdpart_qitadenglu img {
+      width: 136px;
+      height: 18px; }
+  #login_content #login_content_fourthpart {
+    margin-top: 21px;
+    display: flex;
+    justify-content: center; }
+    #login_content #login_content_fourthpart img {
+      margin-left: 15px; }
+
+#login_footer {
   text-align: center;
-  color: white;
-  font-size: 14px;
-}
-#login_content #login_content_secondpart_third {
-  display: flex;
-  justify-content: flex-end;
-  width: 358px;
-  height: 37px;
-}
-#login_content #login_content_secondpart_third img {
-  width: 2px;
-  height: 17px;
-  background: red;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 4px;
-}
-#login_content #login_content_secondpart_third p {
-  color: #757575;
-  font-size: 14px;
-}
+  margin-top: 45px; }
+  #login_footer #login_footer_part1 {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #757575; }
+    #login_footer #login_footer_part1 img {
+      margin-left: 10px;
+      margin-right: 15px;
+      width: 1px;
+      height: 12px; }
+  #login_footer #footer_last {
+    margin-top: 17px;
+    text-align: center;
+    color: #757575;
+    font-size: 14px; }
 
 /*# sourceMappingURL=login.css.map */

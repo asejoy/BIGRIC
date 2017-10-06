@@ -13,11 +13,11 @@ $("#arrange_img li").mouseleave(function()
 	})
 
 $("#nav_left li").mouseenter(function(){
-	$(this).css({background:"purple"});
+	$(this).css({background:"#414950"});
 })
 
 $("#nav_left li").mouseleave(function(){
-	$(this).css({background:"red"});
+	$(this).css({background:"white"});
 })
 
 

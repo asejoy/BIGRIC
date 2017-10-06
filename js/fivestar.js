@@ -15,10 +15,10 @@
 			
 			dom.children().css({
 					float:"left",
-					width: "13.5px",
-					height: "13.5px",
+					width: "27px",
+					height: "27px",
 					background: "url(img/star.gif)",
-					backgroundSize:"13.5px 28.5px",
+					backgroundSize:"27px 57px",
 					backgroundPosition:" 0px 0px",
 					listStyle: "none"
 
@@ -31,7 +31,7 @@
 		{
 			for(let i=0;i<num_max;i++)
 				{
-					li_arry[i].style.backgroundPosition= "0px 13.5px";
+					li_arry[i].style.backgroundPosition= "0px 27px";
 				}
 			for(let i=num_max;i<li_arry.length;i++)
 				{
