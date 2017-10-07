@@ -1,0 +1,257 @@
+@charset "utf-8";
+
+body
+    {
+        background:#f5f5f5 ;
+        margin-top:23px;
+    }
+
+
+#box
+    {
+        width:856px;
+        height: 521px;
+        margin:0 auto;
+        background: white;
+    }
+
+#login_content
+    {
+        margin:0 auto;
+        width:358px;
+//      background: red;
+       #login_content_firstpart
+       {    
+            overflow: hidden;
+//          margin-top:51px;
+            #login_content_img
+            {
+                
+                margin-top:0px;
+                margin-bottom:48px ;
+                
+                img
+                {
+                    width:49px;
+                    height: 49px;
+                    margin:0 auto;
+                }
+                  
+            } 
+            p
+                {
+                    width: 184px;
+                    height: 35px;
+                    font-size:30px ;
+                    line-height: 35px;
+                    color:#424242;
+                    margin:0 auto;
+                    margin-bottom:32px ;
+                    
+                }
+           
+       }
+       #login_content_secondpart
+        {
+            form
+                {
+                    p:nth-child(1)
+                        {
+                            font-size: 14px;
+                            color: #333333;
+                            font-weight: bolder;
+                            height: 32px;
+                            line-height: 32px;
+                        }
+                    
+                   
+                    #login_content_secondpart_one
+                        {
+                            display: flex;
+                            input
+                                {
+                                    display: block;
+                                    width:318px ;
+                                    height: 40px;
+                                    border:1px solid #e0e0e0;
+                                }
+                                
+                             #login_content_secondpart_name
+                                {
+          //                          margin-bottom:15px;
+                                    color: #969696;
+                                    padding-left: 15px;
+                                    width:343px ;
+                                } 
+                            ul
+                                {
+                                    width: 40px;
+                                    height: 40px;
+                                    border-top:1px solid #e0e0e0;
+                                    border-right:1px solid #e0e0e0; 
+                                    border-bottom:1px solid #e0e0e0 ;
+                                } 
+                            li
+                                {
+                                    width: 40px;
+                                    height: 40px;
+                                   
+                                } 
+                            img
+                                {
+                                    width: 22px;
+                                    height: 20px;
+                                    margin: 0 auto;
+                                    margin-top:10px;
+                                }  
+                                
+                        }
+                    
+                    .p_two  
+                        {
+                            font-size: 14px;
+                            color: #666666;
+                            height: 32px;
+                            line-height: 32px;
+                        }
+                    .p_three
+                        {
+                            font-size: 14px;
+                            color: #333333;
+                            font-weight: bolder;
+                            height: 32px;
+                            line-height: 32px;
+                        }
+                    
+                    
+                  
+                                
+                    #login_content_secondpart_two
+                        {
+                              display: flex;
+                              margin-bottom: 32px;
+                              input
+                                {
+                                    display: block;
+                                    width:288px ;
+                                    height: 40px;
+                                    border:1px solid #e0e0e0;
+                                }
+                              select
+                                {
+                                     display: block;
+                                     width: 70px;
+                                     height: 42px;
+                                     border-left:1px solid #e0e0e0;
+                                     border-top:1px solid #e0e0e0;
+                                     border-bottom:1px solid #e0e0e0;
+                                     border-right: none;
+                                     color: #555555;
+                                     padding-left: 10px;
+                                }
+                             
+                             
+                             
+                             
+                             
+                              #login_content_secondpart_password
+                                    {
+            //                          margin-bottom:25px;
+                                        color: #969696;
+                                        padding-left: 15px;
+                                        width:343px ;
+                                    }  
+                            
+                        }
+                                
+                      input
+                                {
+                                    display: block;
+                                    width:358px ;
+                                    height: 40px;
+                                    border:1px solid #e0e0e0;
+                                }           
+//                 
+                  
+                    #login_content_secondpart_submit
+                        {
+                            background:#ef5b00 ;
+                            text-align: center;
+                            color: white;
+                            font-size:14px ;
+                            margin-bottom: 14px;
+                        }
+                }
+        }
+       #login_content_secondpart_third
+        {
+            display: flex;
+            justify-content: flex-end;
+            width:358px ;
+            height:42px ;
+//          margin-bottom: 60px;
+             
+           
+            p
+                {
+                    color: #757575;
+                    font-size: 14px;
+                    height: 21px;
+                    line-height: 21px;
+                }
+            span
+                {
+                    color: black;
+                    font-weight: bolder;
+                }
+        }
+
+       
+       #login_content_fourthpart
+        {
+             margin-top:21px;
+             display: flex;
+             justify-content: center;
+             img
+             {
+                  margin-left: 15px;
+             }
+            
+        }
+      
+    }
+
+#login_footer
+    {
+         text-align: center;
+         margin-top:91px;
+        #login_footer_part1
+            {
+                display: flex;
+                justify-content: center;
+                font-size: 14px;
+                color:#757575;
+                
+                img
+                    {
+                         margin-left:10px ;
+                         margin-right:15px;
+                         width: 1px;
+                         height: 12px;
+                         
+                    }
+            }
+        #footer_last
+            {
+                margin-top:17px;
+                text-align: center;
+                color: #757575;
+                font-size: 14px;
+            }
+        
+       
+       
+    
+        
+       
+    }

@@ -49,15 +49,15 @@ jQuery.fn.extend({
 				top:"0",
 				width: "650px",
 				height: "450px",
-				background: "red"
+				background: "#d8d8d8"
 
  		})
 
  		
 
- 		$("#box_center").append('<img src="img/index_ziyedeziye/17.jpg" alt=""/>');
- 		$("#box_center").append('<img src="img/index_ziyedeziye/18.jpg" alt=""/>');
- 		$("#box_center").append('<img src="img/index_ziyedeziye/19.jpg" alt=""/>');
+ 		$("#box_center").append('<img src="img/index_ziyedeziye/index_ziyedeziye_1.jpg" alt=""/>');
+ 		$("#box_center").append('<img src="img/index_ziyedeziye/index_ziyedeziye_2.jpg" alt=""/>');
+ 		$("#box_center").append('<img src="img/index_ziyedeziye/index_ziyedeziye_3.jpg" alt=""/>');
 
 
  		$("#box_center img").css({
@@ -66,7 +66,8 @@ jQuery.fn.extend({
 				
 				width: "300px",
 				height: "450px",
-				display: "block"
+				display: "block",
+//				marginRight:"30px"
 
  		})
 
@@ -76,11 +77,11 @@ jQuery.fn.extend({
 
  		})
  		$("#box_center img:nth-child(2)").css({
- 				left: "300px"
+ 				left: "310px"
 
  		})
  		$("#box_center img:nth-child(3)").css({
- 				left: "600px"
+ 				left: "620px"
 
  		})
 

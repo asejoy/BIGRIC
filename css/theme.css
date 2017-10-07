@@ -151,6 +151,7 @@
 	{
 		width:100%;
 		background:#f6f6f6 ;
+		/*margin-top:20px;*/
 		
 	}
 #content_bigbox
@@ -159,6 +160,7 @@
 		width:960px;
 		margin:0 auto;
 		display: flex;
+		padding-top:20px;
 	}
 #content_box
 	{
@@ -446,7 +448,7 @@
 		color: #00070e;
 		height: 40px;
 		line-height: 40px;
-		margin-top:14px;
+		/*margin-top:14px;*/
 	}
 #arrange_img 
 	{

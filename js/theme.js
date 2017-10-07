@@ -13,11 +13,24 @@ $("#arrange_img li").mouseleave(function()
 	})
 
 $("#nav_left li").mouseenter(function(){
-	$(this).css({background:"#414950"});
+	$(this).css({background:"#414950",
+					
+	});
+	$(this).children().eq(0).css({
+		color:"white"
+	});
+	
+	
 })
 
 $("#nav_left li").mouseleave(function(){
 	$(this).css({background:"white"});
+	$(this).children().eq(0).css({
+		color:"#666666"
+	});
 })
+
+
+
 
 
